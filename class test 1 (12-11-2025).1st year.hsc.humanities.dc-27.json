@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="view dhaka college results of Year Final_HSC-1st Year-Science_2024-2025 — check your scores and compare your position with other students effortlessly." />
+    <meta name="author" content="Iqtidar, SCI-A-107, class-11, Dhaka College" />
+    <title id="title">DC Results Scraped - Results Page</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <!-- External CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="DCResultsScraped" />
+    <link rel="manifest" href="/images/favicon/site.webmanifest" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">{"@context": "https://schema.org","@type": "WebSite","name": "Dhaka College Results Scrape","url": "https://dcresultsscraped.onrender.com/","description": "Find Dhaka College exam results at DC Results Scraped — check your scores and compare your position with other students effortlessly.."}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 1,"name": "Home","item": "https://dcresultsscraped.onrender.com/"},{"@type": "ListItem","position": 2,"name": "Results","item": "https://dcresultsscraped.onrender.com/results"},{"@type": "ListItem","position": 3,"name": "About me","item": "https://dcresultsscraped.onrender.com/about-me"},{"@type": "ListItem","position": 4,"name": "Blog","item": "https://dcresultsscraped.onrender.com/blog"},{"@type": "ListItem","position": 5,"name": "About Dhaka College","item": "https://dcresultsscraped.onrender.com/results"}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org","@type": "EducationalOrganization""name": "Dhaka College Results Scraped","url": "https://dcresultsscraped.onrender.com/","logo": "https://dcresultsscraped.onrender.com/images/logo.png","address": {"@type": "PostalAddress","addressLocality": "Dhaka","addressCountry": "Bangladesh"}}</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3SW4302NM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-R3SW4302NM');
+    </script>
+     </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="navbar">
+          <h2 class="logo">
+            <a href="/">DcResultsScraped</a>
+          </h2>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" id="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </label>
+          <ul class="links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-me">About Me</a>
+            <li> <a href="/results">Results</a>
+            <li><a href="/blog">Blog</a> </li>
+            <li> <a href="/about-dhaka-college">About Dhaka College</a>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="college">
+        <div class="logo-container">
+          <a href="http://www.dhakacollege.edu.bd"><img src="https://i.ibb.co.com/kgfqWcLx/dc-logo.png" alt="DC Logo" class="logo"></a>
+          <div class="logo-text">
+            <h1>Dhaka College</h1>
+            <h2>Know Thyself</h2>
+          </div>
+          <a href="/"><img src="https://i.ibb.co.com/gMgkv4my/logo.png" alt="DCRS Logo"class="logo" ></a>
+        </div>
+      </div>
+      <main class="main-container">
+       
+    
+        <section>
+            <h2>About DCResults Scraped</h2>
+            <p>DCResultsScraped is an unofficial platform dedicated to providing comprehensive internal examination results for Dhaka College students. Our mission is to empower students by making their academic performance easily accessible without the hassle of navigating individual result pages. By scraping data from the Dhaka College official results webpage, we compile a comprehensive overview of results that enables students to compare their performance and ranks effortlessly.</p>
+        </section>
+    
+        <section>
+            <h2>Why We Scraped Internal Exam Results?</h2>
+            <ul>
+                <li><strong>Lack of Comprehensive Listings:</strong> Dhaka College only provides individual results, which makes it difficult for students to see their relative performance.</li>
+                <li><strong>Enhanced Comparability:</strong> By consolidating all results, we offer a clearer understanding of one's ranking among peers.</li>
+                <li><strong>Student Empowerment:</strong> With easy access to results, students can better evaluate their academic progress and prepare for future examinations like the HSC.</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Features of DCResults Scraped</h2>
+            <ul>
+                <li><strong>Comprehensive Result Compilation:</strong> Access a complete list of internal results for enhanced visibility.</li>
+                <li><strong>Rank Comparison:</strong> Easily compare your results with classmates to understand where you stand.</li>
+                <li><strong>User-Friendly Interface:</strong> Navigate results with ease; our site is designed for optimal usability.</li>
+                <li><strong>Timely Updates:</strong> We ensure that results are scraped and updated promptly following official releases.</li>
+                <li><strong>Data Security and Privacy:</strong> While we scrape results, we respect user privacy and do not collect personal information.</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Benefits of Using DCResults Scraped</h2>
+            <p>Using DCResultsScraped offers numerous advantages:</p>
+            <ul>
+                <li><strong>Convenience:</strong> No more searching for individual results; everything is in one place.</li>
+                <li><strong>Quick Access:</strong> Instant access to results can aid in timely academic planning and strategy.</li>
+                <li><strong>Community Engagement:</strong> Foster discussions among students regarding performance and improvement strategies.</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Understanding HSC Results</h2>
+            <p>The Higher Secondary Certificate (HSC) results are critical for students in Bangladesh, marking a pivotal point in their academic journey. By providing easy access to internal results, DCResultsScraped supports students in preparing for the HSC examinations with a clearer understanding of their strengths and areas for improvement.</p>
+        </section>
+        <section>
+          <h2>The Technology Behind DC Results Scraped</h2>
+          <p>The backbone of DC Results Scraped is advanced web scraping technology that allows us to gather data efficiently from Dhaka College's result webpage. Here’s how it works:</p>
+  
+          <h3>Web Scraping Explained</h3>
+          <p>Web scraping involves extracting information from websites using automated scripts or bots. Our team employs sophisticated algorithms that navigate through web pages just like a human would but at much faster speeds.</p>
+  
+          <h3>The Benefits of Web Scraping</h3>
+          <ul type="none">
+              <li><strong>Aggressive Data Collection:</strong> We can gather large volumes of data quickly without manual input.</li>
+              <li><strong>Error Reduction:</strong> Automated processes reduce human error associated with data entry.</li>
+              <li><strong>Tailored Data Presentation:</strong> We can customize how data is displayed on our platform for better user experience.</li>
+          </ul>
+  
+      </section>
+    
+        <section>
+            <h2>Our Commitment to Quality</h2>
+            <p>At DCResultsScraped, we are dedicated to maintaining the highest standards of data accuracy and site reliability. Our scraping process is meticulously designed to ensure that the results displayed are as accurate as possible, reflecting the official data provided by Dhaka College.</p>
+        </section>
+    
+        <section>
+            <h2>How to Use DCResults Scraped?</h2>
+            <ul>
+                <li>Visit our homepage to view the latest scraped results.</li>
+                <li>Use the search functionality to find your individual results or rank.</li>
+                <li>Compare your results with friends and classmates with our intuitive layout.</li>
+            </ul>
+        </section>
+    
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <h3>Is DCResultsScraped affiliated with Dhaka College?</h3>
+            <p>No, DCResultsScraped is an unofficial website created to provide better access to examination results.</p>
+    
+            <h3>How often are results updated?</h3>
+            <p>Results are scraped and updated promptly following official announcements from Dhaka College.</p>
+    
+            <h3>Is my personal information safe?</h3>
+            <p>We do not collect any personal information from our users, ensuring complete privacy and security.</p>
+        </section>
+    
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions, suggestions, or need assistance, please feel free to contact <a href="/about-me">me</a>.</p>
+        </section>
+    </main>
+
+
+      <!-- Instructions Modal -->
+      <div class="containerbtn">
+        <div class="btn">
+          <a href="/results">Go to Results Page</a>
+        </div>
+      </div>
+
+      <!-- Footer Section (Introduction) -->
+      <footer>
+        <div class="content">
+          <div class="left box">
+            <div class="upper">
+              <div class="topic"></div>
+              <p>
+                Hello I am
+                <a href="/about-me">IQTIDAR</a>
+                , the owner of this platform,
+                <a href="/">DCResultsScraped</a>
+                . This is an unofficial platform where Dhaka College students can check their internal results and see their rank across the college.
+              </p>
+            </div>
+            <div class="lower">
+              <div class="topic">Quick Links</div>
+
+              <div class="email">
+                <div>
+                  <a href="/">Home</a>
+                </div>
+                <div>
+                  <a href="/about-me">About Me</a>
+                </div>
+                <div>
+                  <a href="/results">Results</a>
+                </div>
+                <div>
+                  <a href="/blog">Blog</a>
+                </div>
+                <div>
+                  <a href="/about-dhaka-college">About Dhaka College</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="middle box">
+            <div class="topic">Useful links</div>
+            <div><a href="https://dhakacollege.edu.bd/">Dhaka College</a></div>
+            <div>
+              <a href="https://dhakaeducationboard.gov.bd/">Dhaka Education Board</a>
+            </div>
+            <div>
+              <a href="http://www.educationboardresults.gov.bd/">Board Result</a>
+            </div>
+            <div><a href="#"></a></div>
+            <div><a href="#"></a></div>
+            <div><a href="#"></a></div>
+          </div>
+          <div class="right box">
+            <form action="#">
+              <div class="topic">Find Us on</div>
+              <div class="media-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/profile.php?id=61557204968085" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/+8801615076540" target="_blank" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                  </li>
+                  <li>
+                    <a href="/will-be-added-soon" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/iqtidar314" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="/will-be-added-soon" target="_blank" aria-label="YouTube">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/will-be-added-soon" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>
+            Copyright © 2025 for
+            <a href="/">DCResultsScraped</a>
+            |
+            <a href="/privacy-policy">Privacy Policy</a>
+            | Developed By
+            <a href="/about-me">IQTIDAR</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
